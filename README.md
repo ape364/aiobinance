@@ -7,7 +7,7 @@
 [![Versions](https://img.shields.io/pypi/pyversions/aiobinance.svg)](https://pypi.org/project/aiobinance/)
 
 
-[Binance.com](https://binance.com) [REST API](https://github.com/binance-exchange/binance-official-api-docs) async Python non-official wrapper. Tested only with Python 3.7.
+[Binance.com](https://binance.com) [REST API](https://github.com/binance-exchange/binance-official-api-docs) async Python non-official wrapper. Tested only with Python 3.7. Alpha stage.
 
 ## Features
 
