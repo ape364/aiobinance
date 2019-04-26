@@ -75,10 +75,9 @@ class Network:
             params['timestamp'] = self._get_nonce()
             params['signature'] = self._generate_signature(params)
 
-        async with self._session as session:
-            http_method = getattr(session, method.value)
-            async with http_method(url, params=params) as response:
-                return await self._handle_response(response)
+        http_method = getattr(self._session, method.value)
+        async with http_method(url, params=params) as response:
+            return await self._handle_response(response)
 
     @staticmethod
     async def _handle_response(response: ClientResponse):

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aiobinance"
-version = "0.1.0"
+version = "0.1.1"
 description = "Binance API async Python wrapper"
 authors = ["ape364 <ape364@gmail.com>"]
 license = "MIT"
